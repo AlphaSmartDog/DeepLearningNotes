@@ -417,8 +417,8 @@ $M^i_{k(0)} \in \mathbb{R}^{batch \times I_kI_k}$
 
 令 $N = batch$
 
-- $D_{U_k} = \sum\limits ^N_{i=1}d_{i,i}U^{i}_kU^{iT}_k \\=\sum\limits ^N_{i=1}d_{i,i}M^i_k\\= mat \{(vec(diag(D)))^T M^i_{k(0)}\}$
-- $W_{U_k} = \sum\limits^N_{i=1}\sum\limits ^N_{j=1}w_{i,j}U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_iU^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_i M^i_{k}\\=mat\{w M^i_{k(0)} \}$
+- $D_{U_k} = \sum\limits ^N_{i=1}d_{i,i}U^{i}_kU^{iT}_k \\=\sum\limits ^N_{i=1}d_{i,i}M^i_k\\= mat \{(vec(diag(D)))^T M_{k(0)}\}$
+- $W_{U_k} = \sum\limits^N_{i=1}\sum\limits ^N_{j=1}w_{i,j}U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_iU^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_i M^i_{k}\\=mat\{w M_{k(0)} \}$
 
 其中
 
