@@ -377,7 +377,7 @@ $U_k^{i} \in \mathbb{R}^{I_k\times R_k }$
 令
 
 - $D_U = \sum\limits ^N_{i=1}d_{i,i}U^{i}U^{iT}$ 
-- $W_U = \sum\limits^N_{i=1}\sum^N_{j=1}w_{i,j}U^iU^{jT}$
+- $W_U = \sum\limits^N_{i=1}\sum\limits^N_{j=i}w_{i,j}U^iU^{jT}$
 
 则目标函数可以改写为：
 
@@ -388,22 +388,36 @@ $U_k^{i} \in \mathbb{R}^{I_k\times R_k }$
 - $min\ J(V) = trace(V^TD_UV-V^TW_UV)$
 - $s.t. \ trace(V^TD_UV)=1$
 
-使用拉格朗日乘子处理这个凸优化问题：
+通过如下算法即可获得修正矩阵，通过使用Tucker分解和修正矩阵将原始输入因子矩阵体积进行压缩 
 
-- $L(V) =  trace(V^TD_UV-V^TW_UV) - \lambda(trace(V^TD_UV)-1)$
+- $\mathcal{X}\in\mathbb{R}^{I_1 \times I_2 \times I_3} \to \bar{\mathcal{X}} \in \mathbb{R}^{J_1 \times J_2 \times J_3}$
 
 
-- $\frac{dL(V_k)}{dV_k} \\= (V^T_k(D_U-W_U))^T + (D_U-W_U)V_k -\lambda((V^TD_U)+D_UV)\\=((D_U - W_U)^T +D_U-W_U)V_k-\lambda(D^T_U+D_U)^T\\=2(D_U-W_U)V_k -2\lambda D_UV_k$
-
-其中$D_U^T = \sum\limits^N_{i=1} d_{i,i}(U^iU^{iT})^T=\sum\limits^N_{i=1} d_{i,i}U^iU^{iT}=D_U$
-
-则修正矩阵$V_k$ 可以由下式得到：
-
-- $(D_U-W_U)V_k = \lambda D_UV_k$
-
-通过如下算法即可获得修正矩阵，通过使用Tucker分解和修正矩阵将原始输入因子矩阵体积进行压缩 $\mathcal{X}\in\mathbb{R}^{I_1 \times I_2 \times I_3} \to \bar{\mathcal{X}} \in \mathbb{R}^{J_1 \times J_2 \times J_3}$
+- $\bar{\mathcal{X}_i} = \mathcal{C}_i \times_1 (V^T_1U^i_1) \times_2 (V^T_2U^i_2) \times_3 (V^T_3U^i_3)$
 
 ![](GDR.png)
+
+### 3.3 $\sum$ 循环向量化
+
+$U^i_k\in\mathbb{R}^{batch \times I_k \times J_k}$
+
+$U^{iT}_k\in\mathbb{R}^{batch \times J_k \times I_k}$
+
+$M^i_k = U^i_k U^{iT}_k\in \mathbb{R}^{batch \times I_k \times I_k}$
+
+$M^i_{k(0)} \in \mathbb{R}^{batch \times I_kI_k}$
+
+令 $N = batch$
+
+- $D_{U_k} = \sum\limits ^N_{i=1}d_{i,i}U^{i}_kU^{iT}_k \\=\sum\limits ^N_{i=1}d_{i,i}M^i_k\\= mat \{(vec(diag(D)))^T M_{k(0)}\}$
+- $W_{U_k} = \sum\limits^N_{i=1}\sum\limits ^N_{j=1}w_{i,j}U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\= \sum\limits^N_{i=1}(\sum\limits ^N_{j=i}w_{i,j})U^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_iU^i_kU^{jT}_k\\=\sum\limits^N_{i=1}w_i M^i_{k}\\=mat\{w M_{k(0)} \}$
+
+其中
+
+- $w_{i,j} = \begin{cases}1,\ if\ \ i \le j \ and \ \|y_i -y_j \| \le 5\% \\0, \ otherwise \end{cases} $
+- $\sum\limits ^N_{j=1}w_{i,j} = w_i= sum(w_{i,:}, axis=1)$
+
+
 
 # 引用
 
