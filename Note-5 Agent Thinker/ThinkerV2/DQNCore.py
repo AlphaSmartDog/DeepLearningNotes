@@ -58,14 +58,24 @@ class DQNCore(object):
             initializer=tf.zeros_initializer(),
             trainable=False,
             collections=[tf.GraphKeys.GLOBAL_VARIABLES, tf.GraphKeys.GLOBAL_STEP])       
-        optimizer = tf.contrib.opt.NadamOptimizer(
+        optimizer = tf.train.RMSPropOptimizer(
             learning_rate=learning_rate, epsilon=optimizer_epsilon)
         self._train_op = optimizer.apply_gradients(
             zip(grads, trainable_variables), global_step=global_step)  
 
+        # update target network
+        next_params = tf.get_collection(
+            tf.GraphKeys.GLOBAL_VARIABLES, 
+            scope='next_eval')
+        Q_params = tf.get_collection(
+            tf.GraphKeys.GLOBAL_VARIABLES, 
+            scope='Qeval')
+        self._update_target = [tf.assign(n,q) for n,q in zip(next_params, Q_params)]
+        
         # session
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())   
+        self.sess.graph.finalize()
         
     def init(self):
         self.step_counter = 0       
@@ -92,14 +102,8 @@ class DQNCore(object):
             return network
 
     def update_nextQ_network(self): 
-        next_params = tf.get_collection(
-            tf.GraphKeys.GLOBAL_VARIABLES, 
-            scope='next_eval')
-        Q_params = tf.get_collection(
-            tf.GraphKeys.GLOBAL_VARIABLES, 
-            scope='Qeval')
         # zip 长度不等时，取长度的最小的
-        self.sess.run([tf.assign(n,q) for n,q in zip(next_params, Q_params)])
+        self.sess.run(self._update_target)
 
     def update_cache(self, state, action, reward, next_state, done):
         # update replay experience pool
@@ -141,9 +145,4 @@ class DQNCore(object):
         else:
             action = np.random.randint(self.num_actions)
         return action
-
-
-# In[ ]:
-
-
 
