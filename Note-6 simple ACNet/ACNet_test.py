@@ -1,6 +1,5 @@
 import numpy as np
-import tensorflow as tf
-from models.ACNet import ACNet
+from ACNet import ACNet
 
 class Test(ACNet):
     def __init__(self, state_size, action_size):
@@ -9,8 +8,8 @@ class Test(ACNet):
     def test_step(self, states, actions, R):
         self.train_critic(states, R)
         self.train_actor(states, actions, R)
-        func = [self.loss_policy, self.loss_value, self.entropy]
-        tmp = self.sess.run(func, {self.state: states, self.a_t: actions, self.R: R})
+        func = [self.loss_policy, self.loss_value, self.loss_entropy]
+        tmp = self.sess.run(func, {self.inputs: states, self.actions: actions, self.targets: R})
         print(tmp)
 
 state_size = 5
@@ -19,7 +18,7 @@ Agent = Test(state_size, action_size)
 
 train_data = np.random.uniform(size=(32, 5))
 train_action = np.random.randint(0, 3, size=[32], dtype=np.int32)
-train_discounted_reward = np.random.rand(32, 1) * 100
+train_discounted_reward = np.random.rand(32) * 100
 
 print(Agent.predict_policy(train_data))
 print(Agent.predict_value(train_data))
@@ -27,8 +26,8 @@ print(Agent.predict_value(train_data))
 
 
 for i in range(1000):
-    print(i)
-    Agent.test_step(train_data, train_action, train_discounted_reward)
+    print(i, Agent.predict_action(np.expand_dims(train_data[0], axis=0)))
+    #Agent.test_step(train_data, train_action, train_discounted_reward)
     #Agent.train_actor(train_data, train_action, train_discounted_reward)
     #Agent.train_critic(train_data, train_discounted_reward)
 
