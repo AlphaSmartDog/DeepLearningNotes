@@ -26,3 +26,5 @@ repeat MAX_EPISODES:
 
 - actor optimizer
 - critic optimizer
+
+![](show.png)
