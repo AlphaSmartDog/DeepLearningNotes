@@ -16,6 +16,7 @@ class Agent(object):
         self.episode = 1
         self.accumulate_reward_list = []
         self.accumulate_reward = 0
+        self.T = 0
         self.clear()
 
     def clear(self):

@@ -7,6 +7,7 @@ np.random.seed(1)
 MAX_EPISODES = 1000
 GAME = 'CartPole-v0'
 
+
 class Agent(object):
     def __init__(self, env_name):
         self.env = gym.make(env_name)
@@ -106,13 +107,11 @@ class Agent(object):
                 R = 0
                 self.update_bellman(R)
                 self.train()
-                lp, lv, le = self.get_loss()
-                print (self.T, lp, lv, le)
+                print(self.T, self.get_loss())
                 break
 
             elif t%t_max==0:
                 R = self.AC.predict_value(np.expand_dims(next_state, axis=0))
                 self.update_bellman(R)
                 self.train()
-                lp, lv, le = self.get_loss()
-                print (self.T, lp, lv, le)
+                print(self.T, self.get_loss())

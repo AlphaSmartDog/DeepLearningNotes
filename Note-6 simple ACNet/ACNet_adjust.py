@@ -2,9 +2,11 @@ import random
 import tensorflow as tf
 from FCNet import FCNet
 
-LOSS_V = 10
-ENTROPY_BETA = 10
+LOSS_V = 100
+ENTROPY_BETA = 0.05
 _EPSILON = 1e-6
+L2_P = 1e-5
+L2_V = 1e-2
 actor_learning_rate = 1e-3
 critic_learning_rate = 1e-3
 
@@ -41,10 +43,20 @@ class ACNet(object):
         self.loss_entropy = ENTROPY_BETA * tf.reduce_sum(self.P * tf.log(self.P + _EPSILON))
 
         # optimizer
+        #self.actor_optimizer = tf.train.AdamOptimizer(
+        #    actor_learning_rate).minimize(self.loss_policy + self.loss_entropy)
+        #self.critic_optimizer = tf.train.AdamOptimizer(
+        #    critic_learning_rate).minimize(self.loss_value)
+
+        self.l2_policy = L2_P * tf.add_n(self.actor.get_regularizers())
+        self.l2_value = L2_V * tf.add_n(self.critic.get_regularizers())
+
         self.actor_optimizer = tf.train.AdamOptimizer(
-            actor_learning_rate).minimize(self.loss_policy + self.loss_entropy)
+            actor_learning_rate).minimize(
+            self.loss_policy + self.l2_policy + self.loss_entropy)
         self.critic_optimizer = tf.train.AdamOptimizer(
-            critic_learning_rate).minimize(self.loss_value)
+            critic_learning_rate).minimize(
+            self.loss_value + self.l2_value)
 
         # session
         self.sess = tf.Session()
@@ -72,6 +84,7 @@ class ACNet(object):
                       {self.inputs: states, self.targets: targets})
 
     def get_loss(self, states, actions, targets):
-        fetches = [self.loss_policy, self.loss_value, self.loss_entropy]
+        fetches = [self.loss_policy, self.loss_entropy, self.l2_policy,
+                   self.loss_value, self.l2_value]
         feed_dict = {self.inputs: states, self.actions: actions, self.targets: targets}
         return self.sess.run(fetches, feed_dict)
