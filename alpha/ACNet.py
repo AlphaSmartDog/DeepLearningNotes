@@ -89,14 +89,14 @@ class Agent(object):
 
     def _build_losses(self):
         # value loss
-        self.advantage = (self.targets - self.value) * VALUE_BETA
-        self.value_loss = tf.reduce_mean(tf.square(self.advantage))
-
+        TD = self.targets - self.value
+        self.value_loss = tf.reduce_mean(tf.square(TD))
+        self.advantage = TD * VALUE_BETA
         # policy loss
         action_gather = tf.one_hot(self.actions, self.action_size)
         policy_action = tf.reduce_sum(self.policy * action_gather, axis=2)
         log_policy_action = tf.log(policy_action + _EPSILON)
-        advantage = tf.tanh(tf.expand_dims(self.advantage, axis=1))
+        advantage = tf.expand_dims(self.advantage, axis=1)
         advantage = tf.stop_gradient(advantage)
         self.policy_loss = -tf.reduce_mean(advantage * log_policy_action)
 
