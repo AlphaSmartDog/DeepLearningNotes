@@ -2,540 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc07a0b-16f1-4297-b5a0-3b482e948e0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DeepLearningNotes.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.idea/ACNet.iml" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/ACNet.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.idea/misc.xml" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.idea/modules.xml" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.ipynb_checkpoints/params_adjust-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/params_adjust-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.ipynb_checkpoints/test-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/test-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/.ipynb_checkpoints/test_adjust-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/test_adjust-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/ACNet.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/ACNet_adjust.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet_adjust.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/ACNet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent_adjust.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent_adjust.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/FCNet.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/FCNet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/FCNet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/FCNet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/README.md" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/params_adjust.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/params_adjust.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/show.png" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/show.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/contrib/README.md" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/examples/batch_norm_explained.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/data/ts.test.txt" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/data/ts.train.txt" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/data/ts.valid.txt" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.valid.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/dataset_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/dataset_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/module_with_build_args.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/module_with_build_args.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/rnn_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/rnn_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/examples/rnn_shakespeare_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/rnn_shakespeare_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/context.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/context.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/context_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/context_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/non_trainable.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/non_trainable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/non_trainable_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/non_trainable_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/restore_initializer.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/restore_initializer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/restore_initializer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/stop_gradient.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/stop_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/stop_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/attention.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/attention.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/attention_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/attention_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/base.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/base.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/base_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/base_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/basic.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/basic_rnn.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/basic_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/basic_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/batch_norm.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/batch_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/batch_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/batch_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/block_matrix.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/block_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/block_matrix_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/block_matrix_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/clip_gradient.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/clip_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/clip_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/clip_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/conv.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/conv_gpu_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv_gpu_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/conv_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/embed.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/embed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/embed_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/embed_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/experimental.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/experimental.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/gated_rnn.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/gated_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/gated_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/gated_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/layer_norm.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/layer_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/layer_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/layer_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/alexnet.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/alexnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/alexnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/convnet.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/convnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/convnet_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/convnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/dilation.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/dilation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/dilation_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/dilation_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/mlp.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/nets/mlp_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/mlp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/pondering_rnn.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/pondering_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/pondering_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/pondering_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/residual.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/residual.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/residual_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/residual_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/rnn_core.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/rnn_core.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/rnn_core_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/rnn_core_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/scale_gradient.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/scale_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/scale_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/scale_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/sequential.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/sequential.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/sequential_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/sequential_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/spatial_transformer.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/spatial_transformer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/spatial_transformer_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/spatial_transformer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/util.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/modules/util_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/util_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/initializers.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/initializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/initializers_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/initializers_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/nest.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/nest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/nest_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/nest_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/testdata/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/testing/parameterized/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/testing/parameterized/LICENSE" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/testing/parameterized/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/testing/parameterized/parameterized.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/parameterized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/testing/parameterized/parameterized_test.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/parameterized_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/util/BUILD" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/util/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/sonnet/util/migrate_checkpoint.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/util/migrate_checkpoint.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/test.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/test.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/test_adjust.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/test_adjust.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/.ipynb_checkpoints/异步调参-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/.ipynb_checkpoints/异步调参-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/ACNet.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/ACNet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Access.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/Access.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Framework.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/Framework.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Network.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/Network.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/README.md" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/main.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/contrib/README.md" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/examples/batch_norm_explained.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/data/ts.test.txt" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/data/ts.train.txt" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/data/ts.valid.txt" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.valid.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/dataset_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/dataset_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/module_with_build_args.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/module_with_build_args.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/rnn_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/rnn_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/examples/rnn_shakespeare_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/rnn_shakespeare_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/context.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/context.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/context_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/context_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/non_trainable.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/non_trainable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/non_trainable_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/non_trainable_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/restore_initializer.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/restore_initializer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/restore_initializer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/stop_gradient.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/stop_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/stop_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/attention.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/attention.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/attention_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/attention_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/base.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/base.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/base_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/base_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/basic.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/basic_rnn.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/basic_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/basic_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/batch_norm.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/batch_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/batch_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/batch_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/block_matrix.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/block_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/block_matrix_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/block_matrix_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/clip_gradient.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/clip_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/clip_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/clip_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/conv.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/conv_gpu_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv_gpu_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/conv_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/embed.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/embed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/embed_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/embed_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/experimental.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/experimental.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/gated_rnn.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/gated_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/gated_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/gated_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/layer_norm.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/layer_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/layer_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/layer_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/alexnet.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/alexnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/alexnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/convnet.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/convnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/convnet_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/convnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/dilation.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/dilation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/dilation_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/dilation_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/mlp.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/nets/mlp_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/mlp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/pondering_rnn.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/pondering_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/pondering_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/pondering_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/residual.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/residual.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/residual_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/residual_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/rnn_core.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/rnn_core.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/rnn_core_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/rnn_core_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/scale_gradient.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/scale_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/scale_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/scale_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/sequential.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/sequential.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/sequential_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/sequential_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/spatial_transformer.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/spatial_transformer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/spatial_transformer_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/spatial_transformer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/util.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/modules/util_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/util_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/initializers.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/initializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/initializers_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/initializers_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/nest.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/nest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/nest_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/nest_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/testdata/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/testing/parameterized/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/testing/parameterized/LICENSE" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/testing/parameterized/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/testing/parameterized/parameterized.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/parameterized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/testing/parameterized/parameterized_test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/parameterized_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/util/BUILD" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/util/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/sonnet/util/migrate_checkpoint.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/util/migrate_checkpoint.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/tmp.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/tmp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/util.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/异步调参.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/异步调参.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/.ipynb_checkpoints/异步调参-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/.ipynb_checkpoints/异步调参-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/.ipynb_checkpoints/策略测试-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/.ipynb_checkpoints/策略测试-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/Access.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/Access.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/ConvACNet.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/ConvACNet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/Framework.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/Framework.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/README.md" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/TrainableNet.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/TrainableNet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/env/__init__.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/env/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/env/env.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/env/env2_simple_HS300.csv" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env2_simple_HS300.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/env/env_data.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/env/env_factor.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env_factor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/main.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/model/checkpoint" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/model/checkpoint" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/model/saver_1.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/model/saver_1.ckpt.index" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/model/saver_1.ckpt.meta" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.meta" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/contrib/README.md" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/examples/batch_norm_explained.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/data/ts.test.txt" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/data/ts.train.txt" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/data/ts.valid.txt" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.valid.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/dataset_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/dataset_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/module_with_build_args.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/module_with_build_args.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/rnn_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/rnn_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/examples/rnn_shakespeare_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/rnn_shakespeare_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/context.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/context.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/context_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/context_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/non_trainable.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/non_trainable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/non_trainable_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/non_trainable_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/restore_initializer.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/restore_initializer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/restore_initializer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/stop_gradient.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/stop_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/stop_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/attention.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/attention.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/attention_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/attention_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/base.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/base.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/base_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/base_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/basic.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/basic_rnn.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/basic_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/basic_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/batch_norm.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/batch_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/batch_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/batch_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/block_matrix.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/block_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/block_matrix_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/block_matrix_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/clip_gradient.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/clip_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/clip_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/clip_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/conv.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/conv_gpu_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv_gpu_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/conv_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/embed.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/embed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/embed_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/embed_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/experimental.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/experimental.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/gated_rnn.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/gated_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/gated_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/gated_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/layer_norm.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/layer_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/layer_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/layer_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/alexnet.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/alexnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/alexnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/convnet.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/convnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/convnet_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/convnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/dilation.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/dilation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/dilation_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/dilation_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/mlp.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/nets/mlp_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/mlp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/pondering_rnn.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/pondering_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/pondering_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/pondering_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/residual.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/residual.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/residual_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/residual_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/rnn_core.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/rnn_core.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/rnn_core_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/rnn_core_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/scale_gradient.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/scale_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/scale_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/scale_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/sequential.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/sequential.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/sequential_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/sequential_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/spatial_transformer.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/spatial_transformer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/spatial_transformer_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/spatial_transformer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/util.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/modules/util_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/util_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/initializers.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/initializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/initializers_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/initializers_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/nest.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/nest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/nest_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/nest_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/testdata/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/testing/parameterized/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/testing/parameterized/LICENSE" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/testing/parameterized/__init__.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/testing/parameterized/parameterized.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/parameterized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/testing/parameterized/parameterized_test.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/parameterized_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/util/BUILD" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/util/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/sonnet/util/migrate_checkpoint.py" afterPath="$PROJECT_DIR$/Note_6/reading_order/sonnet/util/migrate_checkpoint.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/util.py" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/估值修正.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/估值修正.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/异步调参.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/异步调参.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/样本外.png" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/样本外.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/策略测试.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/策略测试.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/行为修正.ipynb" afterPath="$PROJECT_DIR$/Note_6/A3C_HS300/行为修正.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/.ipynb_checkpoints/单文件-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/reading_order/.ipynb_checkpoints/单文件-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/README.md" afterPath="$PROJECT_DIR$/Note_6/reading_order/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/env2_simple_HS300.csv" afterPath="$PROJECT_DIR$/Note_6/reading_order/env2_simple_HS300.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/model/checkpoint" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/model/checkpoint" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/model/saver_1.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/model/saver_1.ckpt.index" afterPath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/model/saver_1.ckpt.meta" afterPath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.meta" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/contrib/README.md" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/examples/batch_norm_explained.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/data/ts.test.txt" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/data/ts.train.txt" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/data/ts.valid.txt" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.valid.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/dataset_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/dataset_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/module_with_build_args.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/module_with_build_args.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/rnn_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/rnn_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/examples/rnn_shakespeare_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/rnn_shakespeare_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/context.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/context.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/context_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/context_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/non_trainable.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/non_trainable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/non_trainable_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/non_trainable_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/restore_initializer.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/restore_initializer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/restore_initializer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/stop_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/stop_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/stop_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/attention.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/attention.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/attention_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/attention_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/base.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/base.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/base_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/base_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/basic.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/basic_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/basic_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/basic_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/batch_norm.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/batch_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/batch_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/batch_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/block_matrix.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/block_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/block_matrix_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/block_matrix_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/clip_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/clip_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/clip_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/clip_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/conv.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/conv_gpu_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv_gpu_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/conv_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/embed.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/embed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/embed_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/embed_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/experimental.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/experimental.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/gated_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/gated_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/gated_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/gated_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/layer_norm.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/layer_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/layer_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/layer_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/alexnet.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/alexnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/alexnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/convnet.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/convnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/convnet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/convnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/dilation.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/dilation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/dilation_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/dilation_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/mlp.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/nets/mlp_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/mlp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/pondering_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/pondering_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/pondering_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/pondering_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/residual.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/residual.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/residual_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/residual_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/rnn_core.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/rnn_core.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/rnn_core_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/rnn_core_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/scale_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/scale_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/scale_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/scale_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/sequential.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/sequential.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/sequential_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/sequential_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/spatial_transformer.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/spatial_transformer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/spatial_transformer_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/spatial_transformer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/util.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/modules/util_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/util_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/initializers.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/initializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/initializers_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/initializers_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/nest.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/nest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/nest_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/nest_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/testdata/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/testing/parameterized/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/testing/parameterized/LICENSE" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/testing/parameterized/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/testing/parameterized/parameterized.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/parameterized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/testing/parameterized/parameterized_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/parameterized_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/util/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/util/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/sonnet/util/migrate_checkpoint.py" afterPath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/util/migrate_checkpoint.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/单文件.ipynb" afterPath="$PROJECT_DIR$/Note_6/reading_order/单文件.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.2.1 代码阅读顺序/样本外.png" afterPath="$PROJECT_DIR$/Note_6/reading_order/样本外.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.idea/Note-6.3 强化学习选股-SH50指数增强.iml" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/Note-6.3 强化学习选股-SH50指数增强.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.idea/misc.xml" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.idea/modules.xml" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.ipynb_checkpoints/main-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.ipynb_checkpoints/main-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/.ipynb_checkpoints/单文件-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/.ipynb_checkpoints/单文件-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/README.md" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/agent/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/access.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/actor_critic.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/agent/actor_critic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/framework.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/agent/framework.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/trainable_neural_network.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/agent/trainable_neural_network.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/2017_SH50.csv" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/2017_SH50.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/SH50.xls" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/SH50.xls" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/__init__.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_factor.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_factor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_main.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_market.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_market.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_quotes.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_quotes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/fig1.png" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/fig1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/main.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/model/checkpoint" afterPath="$PROJECT_DIR$/Note_6/reading_order/model/checkpoint" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/model/saver_1.ckpt.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/model/saver_1.ckpt.index" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/model/saver_1.ckpt.meta" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.meta" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/contrib/README.md" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/examples/batch_norm_explained.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/data/ts.test.txt" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/data/ts.train.txt" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.train.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/data/ts.valid.txt" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.valid.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/dataset_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/dataset_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/module_with_build_args.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/module_with_build_args.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/rnn_shakespeare.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/rnn_shakespeare.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/examples/rnn_shakespeare_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/rnn_shakespeare_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/context.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/context.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/context_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/context_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/non_trainable.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/non_trainable.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/non_trainable_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/non_trainable_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/restore_initializer.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/restore_initializer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/restore_initializer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/stop_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/stop_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/stop_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/attention.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/attention.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/attention_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/attention_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/base.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/base.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/base_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/base_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/basic.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/basic_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/basic_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/basic_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/batch_norm.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/batch_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/batch_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/batch_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/block_matrix.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/block_matrix.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/block_matrix_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/block_matrix_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/clip_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/clip_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/clip_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/clip_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/conv.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/conv_gpu_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv_gpu_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/conv_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/embed.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/embed.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/embed_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/embed_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/experimental.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/experimental.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/gated_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/gated_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/gated_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/gated_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/layer_norm.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/layer_norm.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/layer_norm_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/layer_norm_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/alexnet.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/alexnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/alexnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/convnet.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/convnet.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/convnet_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/convnet_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/dilation.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/dilation.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/dilation_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/dilation_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/mlp.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/nets/mlp_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/mlp_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/pondering_rnn.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/pondering_rnn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/pondering_rnn_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/pondering_rnn_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/residual.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/residual.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/residual_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/residual_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/rnn_core.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/rnn_core.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/rnn_core_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/rnn_core_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/scale_gradient.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/scale_gradient.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/scale_gradient_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/scale_gradient_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/sequential.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/sequential.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/sequential_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/sequential_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/spatial_transformer.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/spatial_transformer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/spatial_transformer_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/spatial_transformer_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/util.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/util.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/modules/util_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/util_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/initializers.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/initializers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/initializers_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/initializers_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/nest.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/nest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/nest_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/nest_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/testdata/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/testing/parameterized/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/testing/parameterized/LICENSE" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/testing/parameterized/__init__.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/testing/parameterized/parameterized.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/parameterized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/testing/parameterized/parameterized_test.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/parameterized_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/util/BUILD" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/util/BUILD" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/sonnet/util/migrate_checkpoint.py" afterPath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/util/migrate_checkpoint.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/单文件.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DeepLearningNotes.iml" afterPath="$PROJECT_DIR$/.idea/DeepLearningNotes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -545,14 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DeepLearningNotes$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511945451655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
+    <SUITE FILE_PATH="coverage/DeepLearningNotes$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511945265877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
+    <SUITE FILE_PATH="coverage/DeepLearningNotes$test_trained.coverage" NAME="test_trained Coverage Results" MODIFIED="1511945671663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$test.coverage" NAME="test Coverage Results" MODIFIED="1511943984739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50" />
-    <SUITE FILE_PATH="coverage/DeepLearningNotes$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511944241832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
+    <SUITE FILE_PATH="coverage/DeepLearningNotes$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511945014267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$access.coverage" NAME="access Coverage Results" MODIFIED="1511944291691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50/agent" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test.py">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/train.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
@@ -561,7 +38,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="access.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_trained.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="单文件.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
@@ -595,7 +102,9 @@
       <list>
         <option value="$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/单文件.ipynb" />
         <option value="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/test.py" />
+        <option value="$PROJECT_DIR$/Note_6/test.py" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/test.py" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" />
       </list>
     </option>
   </component>
@@ -676,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.access">
+  <component name="RunManager" selected="Python.test_trained">
     <configuration name="DeepLearningNotes" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -725,40 +234,80 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DeepLearningNotes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Note_6/RL_SH50/test.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\yearone\DeepLearningNotes\Note_6\RL_SH50\train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Note_6/RL_SH50" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DeepLearningNotes" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/test.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\yearone\DeepLearningNotes\Note_6\RL_SH50\test_trained.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="test (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Note_6/RL_SH50" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearningNotes" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\projects\yearone\DeepLearningNotes\Note_6\RL_SH50\test_trained.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_trained" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Note_6/RL_SH50" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DeepLearningNotes" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.DeepLearningNotes" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.access" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.access" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (3)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test_trained" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.access" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_trained" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.access" />
       </list>
     </recent_temporary>
   </component>
@@ -785,7 +334,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20015278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1013,7 +562,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test.py">
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note_6/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
@@ -1021,10 +588,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py">
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

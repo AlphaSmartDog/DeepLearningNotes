@@ -55,3 +55,4 @@ with tf.Session() as sess:
         COORD.join(threads_list)
         A.save(sess, 'model/saver_1.ckpt')
 
+tf.reset_default_graph()
