@@ -2,14 +2,975 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc07a0b-16f1-4297-b5a0-3b482e948e0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyTorch_Study/1.1 LinearRegression.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyTorch_Study/1.2 LogistRegression.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyTorch_Study/2.1 fully connected layers.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/FixPonderDNCore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/FixPonderDNCore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/RqAlpha-Learning-12-1.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/kernels/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/kernels/resampler_op.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/kernels/resampler_op.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/kernels/resampler_op_gpu.cu.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/cc/ops/resampler.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/resampler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/resampler_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/tensorflow.bzl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/焦煤88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/白糖88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/白银88.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/白银88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/螺纹钢88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/鸡蛋88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1 初学RqAlpha——PonderLSTM和PonderDNC日频期货的简单应用/期货测试数据/黄金88.csv.baiduyun.uploading.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/.ipynb_checkpoints/DNCore-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/.ipynb_checkpoints/DNCoreDeepLSTM L2正则化-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/.ipynb_checkpoints/DNCoreDeepLSTM L2正则化-优化器-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/.ipynb_checkpoints/DNCoreLSTM L2正则化-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/DNCore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/DNCore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/DNCoreDeepLSTM L2正则化-优化器.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/DNCoreDeepLSTM L2正则化.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/DNCoreLSTM L2正则化.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/HS300_15m.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/HS300_1d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/TAF.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R2.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R2.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/R2.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/models/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-1 DNCore L2正则化示例/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/.ipynb_checkpoints/PonderingDNCore L2正则化-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/DNCore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/DNCore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/PonderingDNCore L2正则化.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/models/DNCoreDeepLSTM_NADM_saver_1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/models/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-1 RNN-DNC择时/Note-1-2 PonderingDNCore L2正则化示例/期货测试数据/白银88.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/DNCore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/DNCore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/DNCoreLSTM 回归测试.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/HS300_15m.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/HS300_1d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/TAF.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-2 RNN处理非线性回归/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/CP分解.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/CP分解1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/GDR.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/Tesnor Ridge Regression 与多信息源因子 Ver 1.2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/Tesnor Ridge Regression 与多信息源因子 Ver 1.2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/global dimensionality reduction (GDR) algorithm Ver 1.0.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/因子张量分解重构.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/张量预测结构图.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-3 Tensor Ridge Regression/马赛克模式.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-4 Simple Deep Reinforcement Learning/1.0 k摇臂机.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-4 Simple Deep Reinforcement Learning/1.1 A simple Q-Learning game.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-4 Simple Deep Reinforcement Learning/2.1 actor-critic.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-4 Simple Deep Reinforcement Learning/2.2 A2C.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/.ipynb_checkpoints/DQNCore-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/.ipynb_checkpoints/env2-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/.ipynb_checkpoints/main-V2-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/.ipynb_checkpoints/main-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/DQNCore.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/DQNCore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/HS300.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/env2.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/env2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/main-V2.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2/main.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/.ipynb_checkpoints/DQNCoremini-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/.ipynb_checkpoints/env2mini-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/.ipynb_checkpoints/main-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/DQNCoremini.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/DQNCoremini.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/HS300.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/env2mini.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/env2mini.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/main.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/ThinkerV2mini/单文件合集.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note-5 DQN与HS300指数择时/training.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/.ipynb_checkpoints/异步调参-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/.ipynb_checkpoints/策略测试-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/Access.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/ConvACNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/Framework.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/TrainableNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/env/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env2_simple_HS300.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/env/env_factor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/model/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/model/saver_1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/估值修正.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/异步调参.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/样本外.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/策略测试.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/A3C_HS300/行为修正.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/Note-6.3 强化学习选股-SH50指数增强.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.ipynb_checkpoints/main-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/.ipynb_checkpoints/单文件-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/agent/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/agent/actor_critic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/agent/framework.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/agent/trainable_neural_network.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/2017_SH50.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/SH50.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_factor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_market.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/env/env_quotes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/fig1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/model/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/model/saver_1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/train.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/.ipynb_checkpoints/单文件-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/env2_simple_HS300.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/model/checkpoint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/model/saver_1.ckpt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/单文件.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/reading_order/样本外.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/.ipynb_checkpoints/异步调参-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/ACNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/Access.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/Framework.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/Network.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/tmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_A3CNet/异步调参.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/ACNet.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/params_adjust-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/test-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/.ipynb_checkpoints/test_adjust-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet_adjust.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/ACNet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent_adjust.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/Agent_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/FCNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/FCNet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/params_adjust.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/show.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/examples/CartPole_policy_gradient.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/contrib/examples/batch_norm_explained.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/data/ts.valid.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/dataset_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/module_with_build_args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/rnn_shakespeare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/examples/rnn_shakespeare_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/context.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/context_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/non_trainable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/non_trainable_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/restore_initializer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/restore_initializer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/stop_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/custom_getters/stop_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/attention.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/attention_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/base_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/basic_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/batch_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/batch_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/block_matrix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/block_matrix_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/clip_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/clip_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv_gpu_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/conv_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/embed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/embed_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/experimental.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/gated_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/gated_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/layer_norm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/layer_norm_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/alexnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/alexnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/convnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/convnet_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/dilation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/dilation_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/nets/mlp_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/pondering_rnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/pondering_rnn_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/residual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/residual_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/rnn_core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/rnn_core_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/scale_gradient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/scale_gradient_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/sequential.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/sequential_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/spatial_transformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/spatial_transformer_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/modules/util_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/initializers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/initializers_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/nest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/nest_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/python/ops/testdata/restore_initializer_test_checkpoint.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/parameterized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/testing/parameterized/parameterized_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/util/BUILD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/sonnet/util/migrate_checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/test.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Note_6/simple_ACNet/test_adjust.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PyTorch上手笔记/1.1 LinearRegression.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PyTorch上手笔记/1.2 LogistRegression.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PyTorch上手笔记/2.1 fully connected layers.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DeepLearningNotes.iml" afterPath="$PROJECT_DIR$/.idea/DeepLearningNotes.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Note_6/RL_SH50/test.py" afterPath="$PROJECT_DIR$/Note_6/RL_SH50/train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,61 +982,117 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DeepLearningNotes$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1511945451655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1511945265877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
-    <SUITE FILE_PATH="coverage/DeepLearningNotes$test_trained.coverage" NAME="test_trained Coverage Results" MODIFIED="1511945671663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
+    <SUITE FILE_PATH="coverage/DeepLearningNotes$test_trained.coverage" NAME="test_trained Coverage Results" MODIFIED="1511947438574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$test.coverage" NAME="test Coverage Results" MODIFIED="1511943984739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1511945014267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50" />
     <SUITE FILE_PATH="coverage/DeepLearningNotes$access.coverage" NAME="access Coverage Results" MODIFIED="1511944291691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note_6/RL_SH50/agent" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/train.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_trained.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#78#102#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="单文件.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="access.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/access.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/framework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainable_neural_network.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/trainable_neural_network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1500">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RL_SH50.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/RL_SH50.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +1109,23 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Quotes</find>
+      <find>Agent</find>
+      <find>Account</find>
+      <find>Note-6.3 强化学习选股-SH50指数增强</find>
+      <find>Note_6.3 强化学习选股-SH50指数增强</find>
+      <find>ActorNet</find>
+      <find>i([ \]])</find>
+      <find>\.idea</find>
+      <find>.idea</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Note_6</replace>
+      <replace>RL_SH50</replace>
+      <replace>oder_book_id$1</replace>
+      <replace>Note6_A3c/.idea</replace>
+      <replace>/RL_SH50/.idea</replace>
+      <replace>RL_SH50/.idea</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,7 +1137,17 @@
         <option value="$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/test.py" />
         <option value="$PROJECT_DIR$/Note_6/test.py" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/test.py" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/agent/framework.py" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/train.py" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/agent/__init__.py" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" />
+        <option value="$PROJECT_DIR$/Note_6/RL_SH50/env/env_market.py" />
+        <option value="$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/__init__.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -119,6 +1162,25 @@
     <option name="y" value="-9" />
     <option name="width" value="2578" />
     <option name="height" value="1458" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnresolvedReferencesInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -135,8 +1197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,20 +1209,13 @@
             <path>
               <item name="DeepLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="Note_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Note6_A3C" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearningNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="Note_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Note6_A3C" type="462c0819:PsiDirectoryNode" />
               <item name="RL_SH50" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearningNotes" type="462c0819:PsiDirectoryNode" />
-              <item name="Note_6" type="462c0819:PsiDirectoryNode" />
-              <item name="RL_SH50" type="462c0819:PsiDirectoryNode" />
-              <item name="agent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,9 +1224,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\yearone\DeepLearningNotes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,6 +1374,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2fc07a0b-16f1-4297-b5a0-3b482e948e0c" name="Default" comment="" />
@@ -325,16 +1388,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2582" height="1462" extended-state="6" />
+    <frame x="-9" y="-9" width="2578" height="1458" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21210937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23987778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -344,6 +1407,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152207" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -360,186 +1424,165 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="89" column="9" lean-forward="false" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent_adjust.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Framework.py">
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/framework.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_market.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/framework.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/actor_critic.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/access.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Framework.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/trainable_neural_network.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_quotes.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_market.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/README.md" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/单文件.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/main.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/fig1.png" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent_adjust.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/env/env_main.py" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/main.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/test.py" />
+    <entry file="file://$PROJECT_DIR$/Note_6/test.py" />
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/trainable_neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
-          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding />
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/trainable_neural_network.py">
+    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/.idea/modules.xsd" />
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/actor_critic.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/RL_SH50.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/access.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="81">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/framework.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/framework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="675">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_market.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="1134">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/framework.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/access.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="891">
+          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/actor_critic.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/actor_critic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="2" column="62" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/access.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1242">
+          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/main.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.1 simple A3CNet/Framework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/agent/trainable_neural_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="89" column="9" lean-forward="false" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/env/env_market.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.2 A3C与HS300指数择时/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/单文件.ipynb">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/单文件.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note-6.3 强化学习选股-SH50指数增强/main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/fig1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/Note 6 simple ACNet/Agent_adjust.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/env/env_quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="1944">
+          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/env/env_main.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/env/env_factor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4509">
+          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/test_trained.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/env/env_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/env/env_market.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/A3C_HS300/env/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/A3C_HS300/env/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -547,68 +1590,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/actor_critic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note-6 A3CNet/RL_SH50/test.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/framework.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/agent/access.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/trainable_neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="-1500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/test.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/access.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/train.py">
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#78#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/test_trained.py">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/RL_SH50.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note6_A3C/RL_SH50/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

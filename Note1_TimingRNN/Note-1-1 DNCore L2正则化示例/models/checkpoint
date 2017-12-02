@@ -1,0 +1,2 @@
+model_checkpoint_path: "DNCoreDeepLSTM_NADM_saver_1.ckpt"
+all_model_checkpoint_paths: "DNCoreDeepLSTM_NADM_saver_1.ckpt"
