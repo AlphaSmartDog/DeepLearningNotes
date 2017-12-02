@@ -7,7 +7,7 @@ from sonnet.python.modules.basic_rnn import DeepRNN as sntDeepRNN
 from sonnet.python.modules.basic import BatchApply as sntBatchApply
 
 
-def swich(inputs):
+def switch(inputs):
     return inputs * tf.nn.sigmoid(inputs)
 
 
@@ -17,9 +17,9 @@ def Linear(name, output_size):
     regularizers = {"w": tf.contrib.layers.l2_regularizer(scale=0.1),
                     "b": tf.contrib.layers.l2_regularizer(scale=0.1)}
     return sntLinear(output_size,
-                      initializers=initializers,
-                      regularizers=regularizers,
-                      name=name)
+                     initializers=initializers,
+                     regularizers=regularizers,
+                     name=name)
 
 
 # def build_common_network(inputs):
@@ -60,6 +60,7 @@ def build_common_network(inputs):
 class ActorNet(AbstractModule):
     """actor network
     """
+
     def __init__(self, name='Actor'):
         super().__init__(name=name)
 
@@ -68,7 +69,7 @@ class ActorNet(AbstractModule):
         net = build_common_network(inputs)  # rnn output (-1, 1)
         # linear net
         net = sntBatchApply(Linear('input_layer', 64))(net)
-        net = swich(net)
+        net = switch(net)
         net = sntBatchApply(Linear('output_layer', output_size))(net)
         return tf.nn.softmax(net)  # [Time, Batch, output_size]
 
@@ -79,6 +80,7 @@ class ActorNet(AbstractModule):
 class CriticNet(AbstractModule):
     """critic network
     """
+
     def __init__(self, name='critic'):
         super().__init__(name=name)
 
@@ -87,7 +89,7 @@ class CriticNet(AbstractModule):
         net = build_common_network(inputs)  # range (-1, 1)
         # linear net
         net = sntBatchApply(Linear('input_layer', 64))(net)
-        net = swich(net)
+        net = switch(net)
         net = sntBatchApply(Linear('output_layer', 1))(net)
         net = tf.squeeze(net, axis=2)
         # net = tf.nn.tanh(net)

@@ -35,9 +35,12 @@ hs_err_pid*
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-Note6_A3c/RL_SH50/.idea/**/workspace.xml
+.idea/dictionaries
+.idea/workspace.xml
+Note6_A3c/RL_SH50/.idea/workspace.xml
 Note6_A3c/RL_SH50/.idea/**/tasks.xml
 Note6_A3c/RL_SH50/.idea/dictionaries
+Note6_A3c/RL_SH50/.idea/dictionaries/
 Note6_A3c/RL_SH50/.idea/modules.xml
 Note6_A3c/RL_SH50/.idea/misc.xml
 
