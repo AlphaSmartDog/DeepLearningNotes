@@ -8,27 +8,6 @@ _EPSILON = 1e-12
 SH50 = pd.read_csv('env/2017_SH50.csv')
 SH50.drop('Unnamed: 0', axis=1, inplace=True)
 SH50.sort_values(['tradeDate', 'secID'], inplace=True)
-# universe = list(set(SH50['secID'].tolist()))
-# universe.sort()
-universe = ['600048.XSHG', '601601.XSHG', '600887.XSHG',
-            '600109.XSHG', '601186.XSHG', '600030.XSHG',
-            '601169.XSHG', '601398.XSHG', '601088.XSHG',
-            '600028.XSHG', '601336.XSHG', '601901.XSHG',
-            '600050.XSHG', '600000.XSHG', '600485.XSHG',
-            '601288.XSHG', '601377.XSHG', '600029.XSHG',
-            '601198.XSHG', '601211.XSHG', '600893.XSHG',
-            '600547.XSHG', '601668.XSHG', '601166.XSHG',
-            '600100.XSHG', '601006.XSHG', '601818.XSHG',
-            '600036.XSHG', '600837.XSHG', '600958.XSHG',
-            '601318.XSHG', '600016.XSHG', '601628.XSHG',
-            '601800.XSHG', '601688.XSHG', '601857.XSHG',
-            '601989.XSHG', '601998.XSHG', '600999.XSHG',
-            '600518.XSHG', '601328.XSHG', '601988.XSHG',
-            '601788.XSHG', '600637.XSHG', '600104.XSHG',
-            '601390.XSHG', '600111.XSHG', '601766.XSHG',
-            '600519.XSHG', '601985.XSHG']
-# universe.sort()
-
 
 tradeDays = list(set(SH50.tradeDate.tolist()))
 tradeDays.sort()
