@@ -1,56 +1,31 @@
 import numpy as np
 import pandas as pd
 
-
 _EPSILON = 1e-12
 
 
-SH50 = pd.read_csv('env/2017_SH50.csv')
-SH50.drop('Unnamed: 0', axis=1, inplace=True)
-SH50.sort_values(['tradeDate', 'secID'], inplace=True)
-
-tradeDays = list(set(SH50.tradeDate.tolist()))
-tradeDays.sort()
-
-open_list = []
-close_list = []
-
-for i in tradeDays:
-    tmp = SH50.loc[SH50['tradeDate'] == i, ['secID', 'openPrice', 'closePrice']]
-    tmp.set_index('secID', inplace=True)
-    open_list.append(tmp['openPrice'])
-    close_list.append(tmp['closePrice'])
-
-tables_open = pd.concat(open_list, axis=1)
-tables_open.columns = tradeDays
-table_open = np.array(tables_open.T)
-
-tables_close = pd.concat(close_list, axis=1)
-tables_close.columns = tradeDays
-table_close = np.array(tables_close.T)
-
-
 class Quotes(object):
-    def __init__(self):
-        self.table_open = table_open  # 开盘价
-        self.table_close = table_close  # 收盘价
+    def __init__(self, daily_prices):
+        self.table_open = np.array(daily_prices.open)  # 开盘价
+        self.table_close = np.array(daily_prices.close)  # 收盘价
         self.buy_free = 2.5e-4 + 1e-4
         self.sell_free = 2.5e-4 + 1e-3 + 1e-4
         self.reset()
 
     def reset(self):
-        self.portfolio = np.zeros(50)  # 股票持仓数量
+        self.portfolio = np.zeros(self.table_open.shape[1])  # 股票持仓数量
         self.cash = 5e6
         self.valuation = 0  # 持仓估值
         self.total_value = self.cash + self.valuation
         self.buffer_value = []
         self.buffer_reward = []
+        self.buffer_sharpe = []
 
     def buy(self, op, opens):
-        cash = self.cash * 0.8  # 可使用资金量
+        cash = self.cash * 0.99  # 可使用资金量
         mask = np.sign(np.maximum(opens - 1, 0))  # 掩码 去掉停盘数据
         op = mask * op
-        sum_buy = np.maximum(np.sum(op), 15)
+        sum_buy = np.maximum(np.sum(op), 1)
         cash_buy = op * (cash / sum_buy)  # 等资金量
         num_buy = np.round(cash_buy / ((opens + _EPSILON) * 100))  # 手
         self.cash -= np.sum(opens * 100 * num_buy * (1 + self.buy_free))  # 买入股票操作
@@ -79,14 +54,37 @@ class Quotes(object):
         self.buy(buy_op, opens)
         # 当日估值
         new_value = self.assess(closes)
+
+        '''
         reward = np.log(new_value / self.total_value)
         self.total_value = new_value
         self.buffer_value.append(new_value)
         self.buffer_reward.append(reward)
 
-        if step_counter > 200:
+        '''
+        if step_counter <= 10:
+            reward = 0.1
+            new_sharpe = 0
+            if step_counter == 10:
+                hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
+                new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
+        else:
+            hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
+            new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
+            if len(self.buffer_sharpe) == 0:
+                print(step_counter)
+                print(self.buffer_sharpe)
+            last_sharpe = self.buffer_sharpe[-1]
+            reward = new_sharpe - last_sharpe
+
+        self.buffer_reward.append(reward)
+        self.buffer_value.append(new_value)
+        self.buffer_sharpe.append(new_sharpe)
+        self.total_value = new_value
+
+        if step_counter >= self.table_open.shape[0] - 20:
             done = True
-        elif self.total_value < 4.5e6:
+        elif self.total_value < 2e6:
             done = True
         else:
             done = False

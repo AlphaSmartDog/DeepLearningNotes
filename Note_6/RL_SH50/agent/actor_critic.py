@@ -166,6 +166,9 @@ class Agent(object):
     def get_stochastic_action(self, sess, inputs, epsilon=0.9):
         if np.random.uniform() < epsilon:
             policy = sess.run(self.policy_step, {self.inputs: inputs})
+            # prevent precision glitch who causes sum(policy) != 1
+            sum_val = np.sum(policy, axis=1).reshape(policy.shape[0], 1)
+            policy = np.divide(policy, sum_val)
             return batch_choice(self.action_size, policy)
         else:
             return np.random.randint(self.action_size, size=self.batch_size)
@@ -174,7 +177,6 @@ class Agent(object):
     def get_deterministic_policy_action(self, sess, inputs):
         policy_step = sess.run(self.policy_step, {self.inputs: inputs})
         return np.argmax(policy_step, axis=1)
-
 
 
 
