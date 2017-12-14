@@ -1,6 +1,6 @@
 import numpy as np
 from agent.actor_critic import Agent
-from env.env_main import Account
+# from env.env_main import Account
 
 
 MAX_EPISODE_LENGTH = 200
@@ -20,7 +20,7 @@ class Framework(object):
     def __init__(self, name, access, batch_size, state_size, action_size):
         self.Access = access
         self.AC = Agent(name, self.Access, batch_size, state_size, action_size)
-        self.env = Account()
+        # self.env = Account()
         self.name = name
 
     def run(self, sess, max_episodes, t_max=8):
