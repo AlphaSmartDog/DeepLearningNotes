@@ -37,31 +37,31 @@ hs_err_pid*
 # User-specific stuff:
 .idea/dictionaries
 .idea/workspace.xml
-Note6_A3c/RL_SH50/.idea/workspace.xml
-Note6_A3c/RL_SH50/.idea/**/tasks.xml
-Note6_A3c/RL_SH50/.idea/dictionaries
-Note6_A3c/RL_SH50/.idea/dictionaries/
-Note6_A3c/RL_SH50/.idea/modules.xml
-Note6_A3c/RL_SH50/.idea/misc.xml
+Note_6/RL_SH50/.idea/workspace.xml
+Note_6/RL_SH50/.idea/**/tasks.xml
+Note_6/RL_SH50/.idea/dictionaries
+Note_6/RL_SH50/.idea/dictionaries/
+Note_6/RL_SH50/.idea/modules.xml
+Note_6/RL_SH50/.idea/misc.xml
 
 # Sensitive or high-churn files:
-Note6_A3c/RL_SH50/.idea/**/dataSources/
-Note6_A3c/RL_SH50/.idea/**/dataSources.ids
-Note6_A3c/RL_SH50/.idea/**/dataSources.xml
-Note6_A3c/RL_SH50/.idea/**/dataSources.local.xml
-Note6_A3c/RL_SH50/.idea/**/sqlDataSources.xml
-Note6_A3c/RL_SH50/.idea/**/dynamic.xml
-Note6_A3c/RL_SH50/.idea/**/uiDesigner.xml
+Note_6/RL_SH50/.idea/**/dataSources/
+Note_6/RL_SH50/.idea/**/dataSources.ids
+Note_6/RL_SH50/.idea/**/dataSources.xml
+Note_6/RL_SH50/.idea/**/dataSources.local.xml
+Note_6/RL_SH50/.idea/**/sqlDataSources.xml
+Note_6/RL_SH50/.idea/**/dynamic.xml
+Note_6/RL_SH50/.idea/**/uiDesigner.xml
 
 # Gradle:
-Note6_A3c/RL_SH50/.idea/**/gradle.xml
-Note6_A3c/RL_SH50/.idea/**/libraries
+Note_6/RL_SH50/.idea/**/gradle.xml
+Note_6/RL_SH50/.idea/**/libraries
 
 # CMake
 cmake-build-debug/
 
 # Mongo Explorer plugin:
-Note6_A3c/RL_SH50/.idea/**/mongoSettings.xml
+Note_6/RL_SH50/.idea/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
@@ -73,13 +73,13 @@ Note6_A3c/RL_SH50/.idea/**/mongoSettings.xml
 /target/
 
 # mpeltonen/sbtRL_SH50/.idea plugin
-Note6_A3c/RL_SH50/.idea_modules/
+Note_6/RL_SH50/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-Note6_A3c/RL_SH50/.idea/replstate.xml
+Note_6/RL_SH50/.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -92,10 +92,10 @@ fabric.properties
 
 *.iml
 # modules.xml
-# Note6_A3c/RL_SH50/.idea/misc.xml
+# Note_6/RL_SH50/.idea/misc.xml
 # *.ipr
 
 # Sonarlint plugin
-Note6_A3c/RL_SH50/.idea/sonarlint
+Note_6/RL_SH50/.idea/sonarlint
 
 # End of https://www.gitignore.io/api/intellij

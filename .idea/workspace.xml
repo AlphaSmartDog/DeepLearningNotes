@@ -124,14 +124,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env_quotes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="env_quotes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/env/env_quotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
+            <state relative-caret-position="987">
               <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,14 +183,15 @@
       <find>print</find>
       <find>diff: -4</find>
       <find>Trace</find>
+      <find>Note6_A3c</find>
     </findStrings>
     <replaceStrings>
-      <replace>Note_6</replace>
       <replace>RL_SH50</replace>
       <replace>oder_book_id$1</replace>
       <replace>Note6_A3c/.idea</replace>
       <replace>/RL_SH50/.idea</replace>
       <replace>RL_SH50/.idea</replace>
+      <replace>Note_6</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -198,7 +209,6 @@
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/单文件.ipynb" />
         <option value="$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/trainable_neural_network.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Note6_A3C/RL_SH50/env/env_quotes.py" />
         <option value="$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/framework.py" />
         <option value="$PROJECT_DIR$/Note6_A3C/RL_SH50/agent/__init__.py" />
@@ -211,6 +221,7 @@
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/main.ipynb" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/train.py" />
         <option value="$PROJECT_DIR$/Note_6/RL_SH50/env/env_quotes.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -276,6 +287,13 @@
               <item name="DeepLearningNotes" type="462c0819:PsiDirectoryNode" />
               <item name="Note_6" type="462c0819:PsiDirectoryNode" />
               <item name="RL_SH50" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearningNotes" type="462c0819:PsiDirectoryNode" />
+              <item name="Note_6" type="462c0819:PsiDirectoryNode" />
+              <item name="RL_SH50" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -475,11 +493,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23987778" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152207" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15134099" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18263091" sideWeight="0.4984375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15983073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18815105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-636">
@@ -797,11 +808,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Note_6/RL_SH50/env/env_quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
+        <state relative-caret-position="987">
           <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
