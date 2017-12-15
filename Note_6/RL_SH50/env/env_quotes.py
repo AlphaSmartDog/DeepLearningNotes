@@ -21,23 +21,25 @@ class Quotes(object):
         self.buffer_reward = []
         self.buffer_sharpe = []
 
-    def buy(self, op, opens):
+    def buy(self, op, opens, closes):
         cash = self.cash * 0.99  # 可使用资金量
         mask = np.sign(np.maximum(opens - 1, 0))  # 掩码 去掉停盘数据
         op = mask * op
         sum_buy = np.maximum(np.sum(op), 1)
         cash_buy = op * (cash / sum_buy)  # 等资金量
-        num_buy = np.round(cash_buy / ((opens + _EPSILON) * 100))  # 手
-        self.cash -= np.sum(opens * 100 * num_buy * (1 + self.buy_free))  # 买入股票操作
+        # num_buy = np.round(cash_buy / ((opens + _EPSILON) * 100))  # 手
+        # 使用收盘价
+        num_buy = np.round(cash_buy / ((closes + _EPSILON) * 100))  # 手
+        self.cash -= np.sum(closes * 100 * num_buy * (1 + self.buy_free))  # 买入股票操作
         self.portfolio += num_buy * 100
 
-    def sell(self, op, opens):
+    def sell(self, op, opens, closes):
         mask = np.sign(np.maximum(opens - 1, 0))
         num_sell = self.portfolio * op * mask  # 卖出股票数量
-        self.cash -= np.sum(opens * num_sell * (1 - self.sell_free))
+        self.cash -= np.sum(closes * num_sell * (1 - self.sell_free))
         self.portfolio += num_sell
 
-    def assess(self, closes):
+    def assess(self, closes):   # 用第二天的收盘价评估 total_value
         total_value = self.cash + np.sum(self.portfolio * closes)
         return total_value
 
@@ -50,10 +52,11 @@ class Quotes(object):
         buy_op = np.maximum(op, 0)
         sell_op = np.minimum(op, 0)
         # 卖买操作
-        self.sell(sell_op, opens)
-        self.buy(buy_op, opens)
-        # 当日估值
-        new_value = self.assess(closes)
+        self.sell(sell_op, opens, closes)
+        self.buy(buy_op, opens, closes)
+        # 次日估值
+        next_closes = self.table_close[step_counter + 1]
+        new_value = self.assess(next_closes)
 
         '''
         reward = np.log(new_value / self.total_value)
@@ -71,15 +74,22 @@ class Quotes(object):
         else:
             hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
             new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
-            if len(self.buffer_sharpe) == 0:
-                print(step_counter)
-                print(self.buffer_sharpe)
+            print('step_counter: {}, buffer length: {}, diff: {}'
+                  .format(step_counter, len(self.buffer_sharpe), step_counter - len(self.buffer_sharpe)))
+            # if len(self.buffer_sharpe) != step_counter + 1 or len(self.buffer_sharpe) == 0:
+            #     print(step_counter, len(self.buffer_sharpe))
             last_sharpe = self.buffer_sharpe[-1]
             reward = new_sharpe - last_sharpe
 
         self.buffer_reward.append(reward)
         self.buffer_value.append(new_value)
+        prev_len = len(self.buffer_sharpe)
         self.buffer_sharpe.append(new_sharpe)
+        current_len = len(self.buffer_sharpe)
+        if current_len - prev_len != 1:
+            print('previous buffer length {}, after append new sharpe, '
+                  'length is {}'.format(prev_len, current_len))
+        # print(len(self.buffer_sharpe))
         self.total_value = new_value
 
         if step_counter >= self.table_open.shape[0] - 20:
