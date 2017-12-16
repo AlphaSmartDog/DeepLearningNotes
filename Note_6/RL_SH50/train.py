@@ -1,18 +1,17 @@
 import rqdatac
 from rqdatac import *
-rqdatac.init('xinjin', '123456', ('172.19.182.162', 16003))
 
 import time
-
-import pandas as pd
-import numpy as np
-
 import multiprocessing
 import threading
+
 import tensorflow as tf
+
 from agent.access import Access
 from agent.framework import Framework
 from env.env_main import Account
+
+rqdatac.init('xinjin', '123456', ('172.19.182.162', 16003))
 
 # get data
 stock_list = ['000300.XSHG', '000016.XSHG', '000905.XSHG']
@@ -36,7 +35,7 @@ state_size = train_env.features[-1].shape[-1]
 batch_size = train_env.features[-1].shape[1]
 action_size = 3
 max_episodes = 20
-model_path = 'model/saver_4.ckpt'
+model_path = 'model/saver_1.ckpt'
 restore_model = False
 
 GD = {}
@@ -82,8 +81,7 @@ with tf.Session() as sess:
 
         threads_list = []
         for ac in F_list:
-            job = lambda: ac.run(sess, max_episodes)
-            t = threading.Thread(target=job)
+            t = threading.Thread(target=lambda: ac.run(sess, max_episodes))
             t.start()
             threads_list.append(t)
 
