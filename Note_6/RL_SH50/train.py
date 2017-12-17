@@ -34,7 +34,7 @@ NUMS_CPU = multiprocessing.cpu_count()
 state_size = train_env.features[-1].shape[-1]
 batch_size = train_env.features[-1].shape[1]
 action_size = 3
-max_episodes = 20
+max_episodes = 50
 model_path = 'model/saver_1.ckpt'
 restore_model = False
 

@@ -149,14 +149,12 @@ class Quotes(object):
         else:
             hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
             new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
-            try:
-                last_sharpe = self.buffer_sharpe[-1]
-            except IndexError:
+            if step_counter != 0 and len(self.buffer_sharpe) == 0:
                 print('step_counter: {}, buffer length: {}, diff: {}'
                       .format(step_counter, len(self.buffer_sharpe), step_counter - len(self.buffer_sharpe)))
                 print('portfolio: {}, position: {}'.format(self.portfolio, self.current_position))
                 # last_sharpe = 0
-                return
+            last_sharpe = self.buffer_sharpe[-1]
             reward = new_sharpe - last_sharpe
 
         self.buffer_reward.append(reward)

@@ -43,9 +43,15 @@ class Framework(object):
 
         self.AC.init_or_update_local(sess)
         state = self.env.reset()
+        self.env.step_counter = 0
         while True:
             t += 1
             action = self.AC.get_stochastic_action(sess, state)
+            if action is None:
+                print("here")
+            if self.env.step_counter != len(self.env.quote.buffer_sharpe):
+                print("step_counter in framework: {}, buffer length in frame_work: {}"
+                      .format(self.env.step_counter, self.env.quote.buffer_sharpe))
             next_state, reward, done = self.env.step(action)
 
             # buffer for loop
