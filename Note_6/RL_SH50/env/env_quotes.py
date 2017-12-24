@@ -3,6 +3,7 @@ import pandas as pd
 
 _EPSILON = 1e-12
 
+
 class Quotes(object):
     def __init__(self, daily_prices):
         self.table_open = np.array(daily_prices.open)  # 开盘价
@@ -82,21 +83,6 @@ class Quotes(object):
 
         return cash
 
-    def position_to_trade_type(self, position, op):
-        """
-        Collect all trading types' indexes.
-        :param position:    current position
-        :param op:          new position
-        :return: trade type list, e.g [[0, 2], [1, 3], [4], [5, 6]] (if has 7 futures)
-        """
-        buy_open_indexes = np.where(True == ((position == 0) & (op == 1)))
-        sell_close_indexes = np.where(True == ((position == -1) & (op == 0)))
-        # keep_indexes = np.where((position == op) == True)
-        sell_open_indexes = np.where(True == ((position == 0) & (op == -1)))
-        buy_close_indexes = np.where(True == ((position == 1) & (op == 0)))
-        # put all trading indexes into an ordered list, indicates the order to perform trading
-        return [sell_close_indexes, buy_close_indexes, sell_open_indexes, buy_open_indexes]
-
     def trade_to_target(self, trade_type_list, closes):
         """
         Trade from current position to target position.
@@ -116,7 +102,7 @@ class Quotes(object):
         # preprocess, set op to NaN for stop trading futures
         stop_trading_indexes = np.where((closes == 0) | (closes == np.nan))
         op[stop_trading_indexes] = np.array([np.nan] * len(stop_trading_indexes))
-        trade_type_list = self.position_to_trade_type(self.current_position, op)
+        trade_type_list = position_to_trade_type(self.current_position, op)
         # current position -> target position
         self.trade_to_target(trade_type_list, closes)
         '''
@@ -170,3 +156,20 @@ class Quotes(object):
             done = False
 
         return reward, done
+
+def position_to_trade_type(position, op):
+    """
+    Collect all trading types' indexes.
+    :param position:    current position
+    :param op:          new position
+    :return: trade type list, e.g [[0, 2], [1, 3], [4], [5, 6]] (if has 7 futures)
+    """
+    buy_open_indexes = np.where(True == ((position == 0) & (op == 1)))
+    sell_close_indexes = np.where(True == ((position == -1) & (op == 0)))
+    # keep_indexes = np.where((position == op) == True)
+    sell_open_indexes = np.where(True == ((position == 0) & (op == -1)))
+    buy_close_indexes = np.where(True == ((position == 1) & (op == 0)))
+    # put all trading indexes into an ordered list, indicates the order to perform trading
+    return [sell_close_indexes, buy_close_indexes, sell_open_indexes, buy_open_indexes]
+
+

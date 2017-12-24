@@ -1,12 +1,12 @@
 from env.env_market import Market
-from env.env_quotes import Quotes
+from env.env_quotes_new import Quotes
 from env.env_factor import get_factors
 import numpy as np
 import pandas as pd
 
 
 class Account(object):
-    def __init__(self, daily_prices, high_freq_data):
+    def __init__(self, daily_prices, high_freq_data, trading_info):
         # 日线数据
         self.daily_prices = daily_prices
         # 计算特征值用到的15min数据
@@ -16,7 +16,7 @@ class Account(object):
         # 特征值
         self.features = self.get_features()
 
-        self.quote = Quotes(daily_prices)
+        self.quote = Quotes(daily_prices, trading_info)
         self.fac = Market(self.features)
         self.step_counter = 0
 
