@@ -14,7 +14,8 @@ from env.env_main import Account
 rqdatac.init('xinjin', '123456', ('172.19.182.162', 16003))
 
 # get data
-stock_list = ['000300.XSHG', '000016.XSHG', '000905.XSHG']
+# stock_list = ['000300.XSHG', '000016.XSHG', '000905.XSHG']
+stock_list = ['C99', 'CS99', 'A99']
 start_date = '2012-01-01'
 start_date_features = '2011-12-01'
 end_date = '2017-06-30'
@@ -23,12 +24,12 @@ fields_hf = ['open', 'high', 'low', 'close', 'total_turnover']
 
 daily = get_price(stock_list, start_date, end_date, fields=fields_daily, adjust_type='post', frequency='1d')
 high_freq = get_price(stock_list, start_date_features, end_date, fields=fields_hf, adjust_type='post', frequency='15m')
-stock_info = dict()
-stock_info['margin_rate'] = [i.margin_rate for i in instruments(stock_list)]
-stock_info['contract_multiplier'] = [i.contract_multiplier for i in instruments(stock_list)]
+trading_info = dict()
+trading_info['margin_rate'] = [i.margin_rate for i in instruments(stock_list)]
+trading_info['contract_multiplier'] = [i.contract_multiplier for i in instruments(stock_list)]
 
 # account
-train_env = Account(daily_prices=daily, high_freq_data=high_freq, trading_info=stock_info)
+train_env = Account(daily_prices=daily, high_freq_data=high_freq, trading_info=trading_info)
 print(len(train_env.features))
 print(train_env.features[-1].shape)
 
