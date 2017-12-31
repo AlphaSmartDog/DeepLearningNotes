@@ -1,0 +1,2 @@
+model_checkpoint_path: "ddqn.ckpt"
+all_model_checkpoint_paths: "ddqn.ckpt"
