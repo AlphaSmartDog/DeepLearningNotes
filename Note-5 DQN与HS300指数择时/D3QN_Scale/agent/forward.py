@@ -1,10 +1,6 @@
 import tensorflow as tf
 import sonnet as snt
-from params import *
-
-
-def Swich(inputs):
-    return inputs * tf.nn.sigmoid(inputs)
+from config import *
 
 
 class Forward(snt.AbstractModule):
@@ -12,24 +8,31 @@ class Forward(snt.AbstractModule):
         super().__init__(name=name)
         self.name = name
 
-    def _build(self, inputs):
+    def _build(self, inputs, dropout):
         with tf.variable_scope(self.name):
-            net = self._build_shared_network(inputs)
+            net = self._build_shared_network(inputs, dropout)
             V = snt.Linear(1, 'value')(net)
             A = snt.Linear(ACTION_SIZE, 'advantage')(net)
             Q = V + (A - tf.reduce_mean(A, axis=1, keep_dims=True))
             return Q
 
-    def _build_shared_network(self, inputs):
+    def _build_shared_network(self, inputs, dropout):
         net = snt.Conv2D(32, [8, 8], [4, 4])(inputs)
-        net = Swich(net)
+        net = tf.nn.dropout(net, dropout)
+        net = tf.nn.relu(net)
+
         net = snt.Conv2D(64, [4, 4], [2, 2])(net)
-        net = Swich(net)
+        # net = tf.nn.dropout(net, dropout)
+        net = tf.nn.relu(net)
+
         net = snt.Conv2D(64, [3, 3], [1, 1])(net)
-        net = Swich(net)
+        # net = tf.nn.dropout(net, dropout)
+        net = tf.nn.relu(net)
+
         net = snt.BatchFlatten(1)(net)
         net = snt.Linear(512)(net)
-        return Swich(net)
+        net = tf.nn.dropout(net, dropout)
+        return tf.nn.relu(net)
 
 
 

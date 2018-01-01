@@ -1,5 +1,5 @@
 import tensorflow as tf
-from agent.trainable_neural_network import ActorNet, CriticNet
+from agent.forward import ActorNet, CriticNet
 
 LEARNING_RATE = 1e-3
 DECAY_RATE = 0.99

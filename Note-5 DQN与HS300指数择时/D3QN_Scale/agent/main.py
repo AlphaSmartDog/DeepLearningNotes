@@ -3,8 +3,11 @@ from agent.framework import Framework
 
 
 class Agent(object):
-    def __init__(self):
-        self.agent = Framework()
+    def __init__(self, train=True):
+        if train:
+            self.agent = Framework(0.5)
+        else:
+            self.agent = Framework(1.0)
 
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True

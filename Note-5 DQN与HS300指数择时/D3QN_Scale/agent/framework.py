@@ -3,14 +3,14 @@ from collections import deque
 import numpy as np
 import tensorflow as tf
 from agent.forward import Forward
-from params import *
+from config import *
 
 
 _EPSILON = 1e-6  # avoid nan
 
 
 class Framework(object):
-    def __init__(self):
+    def __init__(self, dropout=0.5):
         # placeholder
         self.inputs = tf.placeholder(tf.float32, INPUT_SHAPE, 'input')
         self.actions = tf.placeholder(tf.int32, [None], 'action')
@@ -18,12 +18,12 @@ class Framework(object):
         self.targets = tf.placeholder(tf.float32, [None], 'targets')
 
         # Q value eval
-        self.value_eval = Forward('value')(self.inputs)
+        self.value_eval = Forward('value')(self.inputs, dropout)
 
         # Q_ target eval
         value_next = tf.stop_gradient(self.value_eval)
         action_next = tf.one_hot(tf.argmax(value_next, axis=1), ACTION_SIZE)
-        target_eval = Forward('target')(self.inputs)
+        target_eval = Forward('target')(self.inputs, dropout)
         self.target_eval = tf.reduce_sum(target_eval * action_next, axis=1)
 
         # loss function
@@ -37,6 +37,7 @@ class Framework(object):
         trainable_variables = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, 'value')
         grads, _ = tf.clip_by_global_norm(
             tf.gradients(self._loss, trainable_variables), MAX_GRAD_NORM)
+        # optimizer = tf.train.RMSPropOptimizer(LEARNING_RATE, DECAY)
         optimizer = tf.contrib.opt.NadamOptimizer()
         self._train_op = optimizer.apply_gradients(zip(grads, trainable_variables))
 
