@@ -12,7 +12,10 @@ class Agent(object):
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
         self.sess = tf.Session(config=config)
-        self.saver = tf.train.Saver()
+        trainable_variables = tf.get_collection(
+            tf.GraphKeys.TRAINABLE_VARIABLES, "value")
+        # print(trainable_variables)
+        self.saver = tf.train.Saver(trainable_variables)
         self.sess.run(tf.global_variables_initializer())
         self.sess.graph.finalize()
 
