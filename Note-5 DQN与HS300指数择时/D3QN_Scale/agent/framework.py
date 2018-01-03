@@ -37,8 +37,8 @@ class Framework(object):
         trainable_variables = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES, 'value')
         grads, _ = tf.clip_by_global_norm(
             tf.gradients(self._loss, trainable_variables), MAX_GRAD_NORM)
-        # optimizer = tf.train.RMSPropOptimizer(LEARNING_RATE, DECAY)
-        optimizer = tf.contrib.opt.NadamOptimizer()
+        optimizer = tf.train.RMSPropOptimizer(LEARNING_RATE, DECAY)
+        # optimizer = tf.contrib.opt.NadamOptimizer()
         self._train_op = optimizer.apply_gradients(zip(grads, trainable_variables))
 
         # update target net params

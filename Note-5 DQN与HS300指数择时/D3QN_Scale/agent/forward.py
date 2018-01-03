@@ -3,6 +3,10 @@ import sonnet as snt
 from config import *
 
 
+def swich(inputs):
+    return inputs * tf.nn.sigmoid(inputs)
+
+
 class Forward(snt.AbstractModule):
     def __init__(self, name='forward'):
         super().__init__(name=name)
@@ -18,20 +22,19 @@ class Forward(snt.AbstractModule):
 
     def _build_shared_network(self, inputs, dropout):
         net = snt.Conv2D(32, [8, 8], [4, 4])(inputs)
-        net = tf.nn.dropout(net, dropout)
         net = tf.nn.relu(net)
+        net = tf.nn.dropout(net, dropout)
 
         net = snt.Conv2D(64, [4, 4], [2, 2])(net)
-        # net = tf.nn.dropout(net, dropout)
         net = tf.nn.relu(net)
+        net = tf.nn.dropout(net, dropout)
 
         net = snt.Conv2D(64, [3, 3], [1, 1])(net)
-        # net = tf.nn.dropout(net, dropout)
         net = tf.nn.relu(net)
+        net = tf.nn.dropout(net, dropout)
 
         net = snt.BatchFlatten(1)(net)
         net = snt.Linear(512)(net)
-        net = tf.nn.dropout(net, dropout)
         return tf.nn.relu(net)
 
 

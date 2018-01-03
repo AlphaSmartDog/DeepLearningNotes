@@ -32,5 +32,5 @@ def high2low(tmp, freq):
     # 处理成交量
     tmp_volume = tmp['volume'].resample(freq).sum()
     tmp_volume.dropna(inplace=True)
-
-    return pd.concat([tmp_price, tmp_volume], axis=1)
+    tmp = pd.concat([tmp_price, tmp_volume], axis=1)
+    return tmp.dropna(axis=0)

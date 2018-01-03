@@ -37,7 +37,7 @@ fac_array = fac_array.reshape(shape)
 fac_array = np.transpose(fac_array, [0, 2, 3, 1])
 
 DATE_QUOTES = daily_quotes
-DATA_FAC = fac_array
+DATA_FAC = fac_array + 5.0
 
 
 class QuotesMarket(object):
