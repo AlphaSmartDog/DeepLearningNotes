@@ -37,7 +37,7 @@ fac_array = fac_array.reshape(shape)
 fac_array = np.transpose(fac_array, [0, 2, 3, 1])
 
 DATE_QUOTES = daily_quotes
-DATA_FAC = fac_array + 5.0
+DATA_FAC = fac_array
 
 
 class QuotesMarket(object):
@@ -118,7 +118,7 @@ class QuotesMarket(object):
             raise ValueError("action should be elements of ['long', 'short', 'close']")
 
         position = self.data_close[self.step_counter] * 10 * self.flags
-        reward = np.log((self.cash + position)/self.total_value)
+        reward = self.cash + position - self.total_value
         self.step_counter += 1
         self.total_value = position + self.cash
         next_observation = self.data_observation[self.step_counter]

@@ -3,19 +3,13 @@ from agent.framework import Framework
 
 
 class Agent(object):
-    def __init__(self, train=True):
-        if train:
-            self.agent = Framework(0.5)
-        else:
-            self.agent = Framework(1.0)
+    def __init__(self):
+        self.agent = Framework()
 
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
         self.sess = tf.Session(config=config)
-        trainable_variables = tf.get_collection(
-            tf.GraphKeys.TRAINABLE_VARIABLES, "value")
-        # print(trainable_variables)
-        self.saver = tf.train.Saver(trainable_variables)
+        self.saver = tf.train.Saver()
         self.sess.run(tf.global_variables_initializer())
         self.sess.graph.finalize()
 
