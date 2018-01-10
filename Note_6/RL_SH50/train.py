@@ -20,10 +20,13 @@ start_date = '2012-01-01'
 start_date_features = '2011-12-01'
 end_date = '2017-06-30'
 fields_daily = ['open', 'close']
+fields_mf = ['open', 'high', 'low', 'close', 'open_interest', 'total_turnover']
 fields_hf = ['open', 'high', 'low', 'close', 'total_turnover']
-
 daily = get_price(stock_list, start_date, end_date, fields=fields_daily, adjust_type='post', frequency='1d')
 high_freq = get_price(stock_list, start_date_features, end_date, fields=fields_hf, adjust_type='post', frequency='15m')
+
+
+# trading info includes margin_rate and contract_multiplier
 trading_info = dict()
 trading_info['margin_rate'] = [i.margin_rate for i in instruments(stock_list)]
 trading_info['contract_multiplier'] = [i.contract_multiplier for i in instruments(stock_list)]
@@ -35,7 +38,7 @@ print(train_env.features[-1].shape)
 
 tf.reset_default_graph()
 # NUMS_CPU = multiprocessing.cpu_count()
-NUMS_CPU = 1
+NUMS_CPU = 4
 state_size = train_env.features[-1].shape[-1]
 batch_size = train_env.features[-1].shape[1]
 action_size = 3
