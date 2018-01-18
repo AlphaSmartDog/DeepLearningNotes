@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from env.env_data import high2low, fix_data
-from env.env_factor import get_factors
+from env.env_factor_new import get_factors
 
 quotes = fix_data('env/env2_simple_HS300.csv')
 quotes = high2low(quotes, '5min')

@@ -19,8 +19,7 @@ stock_list = ['C99', 'CS99', 'A99']
 start_date = '2012-01-01'
 start_date_features = '2011-12-01'
 end_date = '2017-06-30'
-fields_daily = ['open', 'close']
-fields_mf = ['open', 'high', 'low', 'close', 'open_interest', 'total_turnover']
+fields_daily = ['open', 'high', 'low', 'close', 'open_interest', 'total_turnover']
 fields_hf = ['open', 'high', 'low', 'close', 'total_turnover']
 daily = get_price(stock_list, start_date, end_date, fields=fields_daily, adjust_type='post', frequency='1d')
 high_freq = get_price(stock_list, start_date_features, end_date, fields=fields_hf, adjust_type='post', frequency='15m')

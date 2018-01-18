@@ -1,5 +1,5 @@
 from env.env_market import Market
-from env.env_quotes_new import Quotes
+from env.env_quotes import Quotes
 from env.env_factor import get_factor_array
 
 DAY_SHIFT = 60
@@ -41,4 +41,3 @@ class Account(object):
 
         dp = self.features_daily_prices
         return get_factor_array(dp, rolling=188)
-

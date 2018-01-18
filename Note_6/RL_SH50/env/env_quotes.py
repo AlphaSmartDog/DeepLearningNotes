@@ -3,173 +3,156 @@ import pandas as pd
 
 _EPSILON = 1e-12
 
+trading_fee = 0.0005
+
+# SHARPE_WINDOW = 10
+EMA_WINDOW = 10
+
+
+def replace_nan(array):
+    series = pd.Series(array)
+    series = series.fillna(0)
+    return series.values
+
+
+def margin_utility_gradient(hist_ret):
+    """
+    Compute margin utility gradient, refer to week10-moody.ppt
+    :param hist_ret: history return from (t-EMA_WINDOW-1) to (t-1)
+    :return: the value
+    """
+    length = len(hist_ret)
+    assert length > 0
+    eta = 1 / length
+    hist_ret_square = hist_ret ** 2
+    prev_a = hist_ret.ewm(adjust=True, min_periods=length, alpha=eta).mean().iloc[-1]   # A_{t-1}
+    prev_b = hist_ret_square.ewm(adjust=True, min_periods=length, alpha=eta).mean().iloc[-1]    # B_{t-1}
+    last_r = hist_ret.iloc[-1]   # R_{t}
+
+    numerator = prev_b - prev_a * last_r
+    denominator = pow(prev_b - prev_a ** 2, 3 / 2)
+
+    return numerator / denominator
+
 
 class Quotes(object):
-    def __init__(self, daily_prices):
-        self.table_open = np.array(daily_prices.open)  # 开盘价
-        self.table_close = np.array(daily_prices.close)  # 收盘价
-        self.buy_free = 2.5e-4 + 1e-4
-        self.sell_free = 2.5e-4 + 1e-3 + 1e-4
-        self.sell_short_margin = 0.05
-        # initialize in init
-        self.portfolio = np.zeros(self.table_open.shape[1])  # 股票持仓数量
-        self.current_position = np.zeros(self.table_close.shape[1])  # current position
-        self.sell_short_closes = np.zeros(self.table_close.shape[1])  # sell short price
+    def __init__(self, daily_prices, trading_info):
+        self.table_open = np.array(daily_prices.open)  # open
+        self.table_close = np.array(daily_prices.close)  # close
+        self.stock_count = self.table_close.shape[1]
+        self.table_return = np.array(daily_prices.close.shift(1) / daily_prices.close)
+        self.trading_info = trading_info
+
         self.cash = 5e6
-        self.valuation = 0  # 持仓估值
-        self.total_value = self.cash + self.valuation
         self.buffer_value = []
         self.buffer_reward = []
         self.buffer_sharpe = []
+
+        self.cash_for_each = (self.cash * 0.99) / self.stock_count  # divide equally
+        self.num_for_each = self.cash_for_each / (self.table_close[0] *
+                                                  self.trading_info['contract_multiplier'] * self.trading_info[
+                                                      'margin_rate']) / 100
+        self.num_for_each = np.floor(self.num_for_each)
+        self.current_total_value = self.cash * 0.99  # total_value = cash + margin + open-profit
+        self.margins = self.cash / self.table_close.shape[1]  # divide equally
+        self.portfolio = np.zeros(self.table_open.shape[1])  # 股票持仓数量
+        self.current_position = np.zeros(self.table_close.shape[1])  # current position
 
     def reset(self):
-        self.portfolio = np.zeros(self.table_open.shape[1])  # 股票持仓数量
-        self.current_position = np.zeros(self.table_close.shape[1])  # current position
-        self.sell_short_closes = np.zeros(self.table_close.shape[1])  # sell short price
         self.cash = 5e6
-        self.valuation = 0  # 持仓估值
-        self.total_value = self.cash + self.valuation
         self.buffer_value = []
         self.buffer_reward = []
         self.buffer_sharpe = []
 
-    def buy(self, op, opens, closes):
-        cash = self.cash * 0.99  # 可使用资金量
-        mask = np.sign(np.maximum(opens - 1, 0))  # 掩码 去掉停盘数据
-        op = mask * op
-        sum_buy = np.maximum(np.sum(op), 1)
-        cash_buy = op * (cash / sum_buy)  # 等资金量
-        # num_buy = np.round(cash_buy / ((opens + _EPSILON) * 100))  # 手
-        # use close price
-        num_buy = np.round(cash_buy / ((closes + _EPSILON) * 100))  # 手
-        self.cash -= np.sum(closes * 100 * num_buy * (1 + self.buy_free))  # 买入股票操作
-        self.portfolio += num_buy * 100
-
-    def sell(self, op, opens, closes):
-        mask = np.sign(np.maximum(opens - 1, 0))
-        num_sell = self.portfolio * op * mask  # 卖出股票数量
-        self.cash -= np.sum(closes * num_sell * (1 - self.sell_free))
-        self.portfolio += num_sell
-
-    def assess(self, closes):  # 用第二天的收盘价评估 total_value
-        total_value = self.cash + np.sum(self.portfolio * closes)
-        return total_value
-
-    def assess_by_position(self, trade_type_list, closes):
-        return self.get_cash_by_position(trade_type_list, closes, self.cash)
-
-    def get_cash_by_position(self, trade_type_list, closes, cash):
-        """
-        Compute new cash by position and closes in concern.
-        :param trade_type_list: list of trade type indexes
-        :param closes:          close price for each future
-        :param cash:            original cash
-        :return: new cash
-        """
-        for i in range(len(trade_type_list)):
-            indexes = trade_type_list[i]  # e.g [0, 2], indicates witch future is trading in this type
-            if i == 0:  # sell_close
-                close_prices = closes[indexes]  # e.g [4312.3, 5654.2]
-                sell_short_close_prices = self.sell_short_closes[indexes]
-                cash += sum(sell_short_close_prices - close_prices)
-            if i == 1:  # buy_close
-                close_prices = closes[indexes]
-                cash += sum(close_prices)
-            if i == 2:  # sell_open
-                self.sell_short_closes[indexes] = closes[indexes]
-            if i == 3:  # buy_open
-                close_prices = closes[indexes]
-                cash -= sum(close_prices)
-
-        return cash
-
-    def trade_to_target(self, trade_type_list, closes):
-        """
-        Trade from current position to target position.
-        :param trade_type_list: trade type indexes
-        :param closes:          close prices for each futures
-        :return: void
-        """
-        cash = self.cash * 0.99  # 可使用资金量
-        # TODO: adjust trading number by cash, currently only trade for one
-        self.cash = self.get_cash_by_position(trade_type_list, closes, self.cash)
+        self.cash_for_each = (self.cash * 0.99) / self.stock_count  # divide equally
+        self.num_for_each = self.cash_for_each / (self.table_close[0] *
+                                                  self.trading_info['contract_multiplier'] * self.trading_info[
+                                                      'margin_rate']) / 100
+        self.num_for_each = np.floor(self.num_for_each)
+        self.current_total_value = self.cash * 0.99
+        self.margins = self.cash / self.table_close.shape[1]
+        self.portfolio = np.zeros(self.table_open.shape[1])
+        self.current_position = np.zeros(self.table_close.shape[1])
 
     def step(self, step_counter, action_vector):
-        # 获取报价单
+        self.num_for_each = self.cash_for_each / (self.table_close[step_counter] *
+                                                  self.trading_info['contract_multiplier'] * self.trading_info[
+                                                      'margin_rate']) / 100
+        self.num_for_each = np.floor(self.num_for_each)
         closes = self.table_close[step_counter]
-        # 买卖操作信号
-        op = action_vector - 1  # 0,1,2 -> -1,0,1
+        operator = action_vector - 1  # 0,1,2 -> -1,0,1
         # preprocess, set op to NaN for stop trading futures
         stop_trading_indexes = np.where((closes == 0) | (closes == np.nan))
-        op[stop_trading_indexes] = np.array([np.nan] * len(stop_trading_indexes))
-        trade_type_list = position_to_trade_type(self.current_position, op)
-        # current position -> target position
-        self.trade_to_target(trade_type_list, closes)
-        '''
-        buy_op = np.maximum(op, 0)
-        sell_op = np.minimum(op, 0)
-        # 卖买操作
-        self.sell(sell_op, opens, closes)
-        self.buy(buy_op, opens, closes)
-        '''
-        # 次日估值
-        next_closes = self.table_close[step_counter + 1]
-        # new_value = self.assess(next_closes)
-        new_value = self.assess_by_position(trade_type_list, next_closes)
-        # update current position
-        self.current_position = op
+        operator[stop_trading_indexes] = np.array([np.nan] * len(stop_trading_indexes))
 
-        '''
-        reward = np.log(new_value / self.total_value)
-        self.total_value = new_value
-        self.buffer_value.append(new_value)
-        self.buffer_reward.append(reward)
+        self.trade_to_target(operator, step_counter)
 
-        '''
-        if step_counter <= 10:
+        next_total_value = self.assess(step_counter)
+
+        value_length = len(self.buffer_value)
+        if value_length <= EMA_WINDOW + 1:
             reward = 0.1
-            new_sharpe = 0
-            if step_counter == 10:
-                hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
-                new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
         else:
-            hist_ret = pd.Series(self.buffer_value[step_counter - 10:step_counter]).pct_change().dropna()
-            new_sharpe = hist_ret.mean() / (hist_ret.std() + 0.0001) * 16
-            if step_counter != 0 and len(self.buffer_sharpe) == 0:
-                print('step_counter: {}, buffer length: {}, diff: {}'
-                      .format(step_counter, len(self.buffer_sharpe), step_counter - len(self.buffer_sharpe)))
-                print('portfolio: {}, position: {}'.format(self.portfolio, self.current_position))
-                # last_sharpe = 0
-            last_sharpe = self.buffer_sharpe[-1]
-            reward = new_sharpe - last_sharpe
+            hist_ret = pd.Series(self.buffer_value[value_length - EMA_WINDOW - 2: value_length - 1]).pct_change().dropna()
+            reward = margin_utility_gradient(hist_ret)
 
         self.buffer_reward.append(reward)
-        self.buffer_value.append(new_value)
-        self.buffer_sharpe.append(new_sharpe)
-        self.total_value = new_value
+        self.buffer_value.append(next_total_value)
 
         if step_counter >= self.table_open.shape[0] - 20:
             done = True
-        elif self.total_value < 2e6:
+        elif self.cash < 2e6:
             done = True
         else:
             done = False
 
         return reward, done
 
-def position_to_trade_type(position, op):
-    """
-    Collect all trading types' indexes.
-    :param position:    current position
-    :param op:          new position
-    :return: trade type list, e.g [[0, 2], [1, 3], [4], [5, 6]] (if has 7 futures)
-    """
-    buy_open_indexes = np.where(True == ((position == 0) & (op == 1)))
-    sell_close_indexes = np.where(True == ((position == -1) & (op == 0)))
-    # keep_indexes = np.where((position == op) == True)
-    sell_open_indexes = np.where(True == ((position == 0) & (op == -1)))
-    buy_close_indexes = np.where(True == ((position == 1) & (op == 0)))
-    # put all trading indexes into an ordered list, indicates the order to perform trading
-    return [sell_close_indexes, buy_close_indexes, sell_open_indexes, buy_open_indexes]
+    def trade_to_target(self, operator, step_counter):
+        """
+        Trade from current position to target position. Adjust total_value and position accordingly.
+        :param operator:        new operator indicates target position
+        :param step_counter:    current step counter
+        :return: void
+        """
+        trading = operator - self.current_position
+        # compute current total value as a result of tradings happened yesterday
+        self.current_total_value += np.nansum(self.current_position * self.table_return[step_counter])
+        # minus trading fee
+        fees = abs(trading) * self.portfolio * self.trading_info['contract_multiplier'] * trading_fee
+        self.current_total_value -= np.nansum(fees)
+        if all(trading == [0] * len(trading)):  # position didn't change, no trading
+            pass
+        else:
+            self.current_position = operator
+            self.portfolio = self.portfolio + trading * self.num_for_each
+
+    def assess(self, step_counter):
+        next_total_value = self.current_total_value + np.nansum(self.current_position * self.table_return[step_counter + 1])
+        return next_total_value
 
 
+if __name__ == '__main__':
+    import rqdatac
+    from rqdatac import *
+
+    rqdatac.init('xinjin', '123456', ('172.19.182.162', 16003))
+
+    # get data
+    # stock_list = ['000300.XSHG', '000016.XSHG', '000905.XSHG']
+    stock_list = ['C99', 'CS99', 'A99']
+    start_date = '2012-01-01'
+    start_date_features = '2011-12-01'
+    end_date = '2017-06-30'
+    fields_daily = ['open', 'close']
+    fields_hf = ['open', 'high', 'low', 'close', 'total_turnover']
+
+    daily = get_price(stock_list, start_date, end_date, fields=fields_daily, adjust_type='post', frequency='1d')
+    high_freq = get_price(stock_list, start_date_features, end_date, fields=fields_hf, adjust_type='post',
+                          frequency='15m')
+    trading_info = dict()
+    trading_info['margin_rate'] = [i.margin_rate for i in instruments(stock_list)]
+    trading_info['contract_multiplier'] = [i.contract_multiplier for i in instruments(stock_list)]
+
+    Q = Quotes(daily, trading_info)
+    Q.step(0, np.array([1, 1, 0]))

@@ -1,5 +1,7 @@
 import numpy as np
 from agent.actor_critic import Agent
+
+import threading
 # from env.env_main import Account
 
 
@@ -50,7 +52,7 @@ class Framework(object):
             if action is None:
                 print("here")
             if self.env.step_counter != len(self.env.quote.buffer_sharpe):
-                print("step_counter in framework: {}, buffer length in frame_work: {}"
+                print("step_counter in framework: {}, buffer in framework: {}"
                       .format(self.env.step_counter, self.env.quote.buffer_sharpe))
             next_state, reward, done = self.env.step(action)
 
@@ -91,6 +93,7 @@ class Framework(object):
                 outputs = self.get_losses(sess, inputs, actions, targets, gather_list)
                 outputs = tuple(outputs)
                 if self.name == 'W0':
+                    print(threading.current_thread())
                     print('actor: %f, actor_grad: %f, policy mean: %f, policy: %f, entropy: %f, '
                           'critic: %f, critic_grad: %f, value: %f, value_mean: %f, advantage: %f'
                           % outputs)
