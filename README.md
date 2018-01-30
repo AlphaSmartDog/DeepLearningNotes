@@ -11,3 +11,10 @@
 - 这个目录下面的模型，测试环境是 win10 python3.6 tensorflow-cpu 1.3 
 - 此目录下模型多是在ubuntu 16.04 LTS tensorflow-gpu 1.3 编写，微调适应windows
 
+
+
+
+- Version 140以后位windows 10 64 pro， Cuda 8.0 cudnn 6.0 
+- tensorflow-gpu 1.4 
+- pytorch-gpu 0.3
+
